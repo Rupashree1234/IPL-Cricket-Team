@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+.container1 .input{
+	border: 0;
+	outline: none;
+	color: #8b7d77;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.search_wrap{
+	width: 500px;
+	margin: 8px auto;
+	padding-left:40px;
+}
+
+.search_wrap .search_box{
+	position: relative;
+	width: 250px;
+	height: 26px;
+}
+
+.search_wrap .search_box .input{
+	position: absolute;
+	top: -5px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	padding: 18px 20px;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+.search_wrap .search_box .btn{
+	position: absolute;
+	top: -5px;
+	right: 0;
+	width: 36px;
+	height: 36px;
+	background: #a12c2f;
+	z-index: 1;
+	cursor: pointer;
+	border:none;
+}
+
+.search_wrap .search_box .btn:hover{
+	background: #a12c2f;	
+}
+
+.search_wrap .search_box .btn.btn_common .fa{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 14px;
+}
+
+.search_wrap.search_wrap_3 .search_box .input{
+	padding-right: 80px;
+	border-radius: 50px;
+}
+
+.search_wrap.search_wrap_3 .search_box .btn{
+	right: 0px;
+	border-radius: 50%;
+}
+
